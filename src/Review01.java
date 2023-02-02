@@ -4,7 +4,7 @@ public class Review01 {
         //元の価格
         int price = 1622;
         //消費税額
-        int result = tax (1622);
+        int result = tax (price);
         //税込価格
         int PriceWithTax = price + result;
         System.out.println (price + "円の商品の税込価格は" + PriceWithTax + "円" + "(消費税は" + result + "円）" + "です。" );
