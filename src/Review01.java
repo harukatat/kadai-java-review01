@@ -2,7 +2,6 @@ public class Review01 {
 
     public static void main(String[]args) {
         //元の価格
-
         int price = 1622;
         //消費税額
         int result = getTax (1622);
